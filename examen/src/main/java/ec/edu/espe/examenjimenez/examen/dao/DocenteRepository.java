@@ -11,4 +11,5 @@ public interface DocenteRepository extends CrudRepository<Docente, Long> {
 
     Docente findByCedula(String cedula);
     List<Docente> findByEspecialidad(Especialidad especialidad);
+    List<Docente> findByNombre(String nombre);
 }
